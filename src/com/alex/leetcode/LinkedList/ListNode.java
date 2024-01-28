@@ -1,4 +1,4 @@
-package com.alex.leetcode.recursion;
+package com.alex.leetcode.LinkedList;
 
 public class ListNode {
     int val;

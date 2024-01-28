@@ -1,4 +1,4 @@
-package com.alex.leetcode.recursion;
+package com.alex.leetcode.LinkedList;
 
 /**
  * 2. Add Two Numbers
