@@ -1,11 +1,9 @@
 package com.alex.leetcode.LinkedList;
 
+/**
+ * 83. Remove Duplicates from Sorted List (slow fast pointers)
+ */
 public class RemoveDupFromSortedList {
-    /**
-     * 83. Remove Duplicates from Sorted List (slow fast pointers)
-     * @param head
-     * @return
-     */
     public ListNode deleteDuplicates(ListNode head) {
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
