@@ -13,11 +13,10 @@ public class RemoveDupFromSortedList {
             fast = slow.next;
             if (slow.val == fast.val) {
                 slow.next = fast.next;
-                fast = fast.next;
             } else {
                 slow = slow.next;
-                fast = fast.next;
             }
+            fast = fast.next;
         }
 
         return dummy.next;
